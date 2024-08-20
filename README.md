@@ -7,3 +7,5 @@
 [Relatório 3 / Introdução à engenharia de dados / Git - 09/08](pages/09-08.md)
 
 [Relatório 4 / Linux / Shell / Airflow - 14/08](pages/14-08.md)
+
+[Relatório 5 / Pandas / BigQuery / CI/CD / PubSub - 20/08](pages/20-08.md)
