@@ -33,8 +33,6 @@ FROM price_calc
 GROUP BY client_id, total_price 
 ORDER BY client_id
 
-%hive
-
 -- RETORNANDO O LOCAL DE COMPRA MAIS UTILIZADO POR CLIENTE --
     -- O "WITH" abaixo cria uma subconsulta, filtrando a tabela principal (purchases) na qual mais tarde realizarei consultas -> CONCEITO DE CTE (Common Table Expression)
     -- Para isso seleciono o id do cliente, os locais de compra, a soma de tudo e ordeno a tabela pelas duas colunas previamente mencionadas para separar a quantidade em que cada cliente comprou via cada local
@@ -55,8 +53,6 @@ SELECT
 FROM locations 
 WHERE most_used = 1 
 ORDER BY client_id
-
-%hive
 
 -- RETORNANDO AS DATAS DAS PRIMEIRAS E ÚLTIMAS COMPRAS REALIZADAS POR CADA CLIENTE --
     -- Traz o id dos clientes, as datas em que compraram e numera as linhas - resetando a cada cliente pelo PARTITION - de acordo com as datas em que compraram em ordem crescente
