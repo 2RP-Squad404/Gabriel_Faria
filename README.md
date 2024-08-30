@@ -9,3 +9,5 @@
 [Relatório 4 / Linux / Shell / Airflow - 14/08](pages/14-08.md)
 
 [Relatório 5 / Pandas / BigQuery / CI/CD / PubSub - 20/08](pages/20-08.md)
+
+[Tarefa Hive - 30/08](SQL_Hive_Tarefa2/relatorio.md)
